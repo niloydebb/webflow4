@@ -1,0 +1,174 @@
+@font-face {
+    font-family: "Public Sans";
+    src: url(../font/public-sans/webfonts/PublicSans-Thin.ttf);
+}
+
+@font-face {
+    font-family: "Public Sans";
+    src: url(../font/public-sans/webfonts/PublicSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Public Sans";
+    src: url(../font/public-sans/webfonts/PublicSans-Light.ttf);
+}
+
+@font-face {
+    font-family: "Public Sans";
+    src: url(../font/public-sans/webfonts/PublicSans-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Public Sans";
+    src: url(../font/public-sans/webfonts/PublicSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Public Sans";
+    src: url(../font/public-sans/webfonts/PublicSans-SemiBold.ttf);
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #012152;
+}
+
+.container {
+
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 30px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.menu ul li{
+    
+    list-style-type: none;
+}
+
+.menu ul li a{
+    padding-right: 25px;
+    font-family: "Public Sans";
+   font-weight: 300;
+   font-size: 16px;
+   line-height: 1.876em;
+   text-decoration: none;
+   color: #fff;
+}
+
+
+.menu ul li:last-child a{
+   padding: 20px 32px;
+   border-radius: 10px;
+   font-family: "Public Sans";
+   font-size: 18px;
+   font-weight: 600;
+   background-color: #0063FF;
+}
+
+
+.hero {
+    
+    align-items: center;
+}
+.hero  .text{
+   
+    flex-basis: 50%;
+}
+
+.hero .img{
+   
+    flex-basis: 45%;
+}
+
+.img img{
+    width:100%;
+    object-fit: cover;
+    border-radius: 20px;
+
+}
+
+.text span {
+    margin-bottom: 10px;
+    font-family: "Public Sans";
+    font-size: 16px;
+    letter-spacing: .1em;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #bdc0cc;
+}
+.text h1 {
+    margin-top: 12px;
+    font-family: "Public Sans";
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 1.1232em;
+    color: #fff;
+}
+
+.text h1 span {
+    font-family: "Public Sans";
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 1.1232em;
+    color: #5b9bff;
+    text-transform: inherit;
+}
+
+.text p{
+    font-family: "Public Sans";
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.5em;
+    color: #bdc0cc;
+    margin: 45px 0px;
+    
+}
+
+.text a{
+    
+        
+        text-decoration: none;
+        text-align: center;
+        border-width: 1px;
+        border-color: #fff;
+        border-radius: 10px;
+        margin-top: 0;
+        padding: 20px;
+        font-family: "Public Sans";
+        font-weight: 600;
+        overflow: hidden;
+       
+    
+}
+
+.text .btn{
+    margin-top: 50px;
+}
+
+.text .qto_btn{
+   margin-right: 30px;  
+  background-color: #fff;
+  color: #012152;
+   
+
+}
+
+.text .v_ser{
+    background-color:#0063ff;
+    color:#fff;
+     
+  
+  }
